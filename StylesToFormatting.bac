@@ -1,3 +1,4 @@
+' Convert all spans of text using Styles to Normal spans of text with inline formatting.
 Sub StylesToFormatting()
     Dim paragraph As paragraph
     Dim font As font
