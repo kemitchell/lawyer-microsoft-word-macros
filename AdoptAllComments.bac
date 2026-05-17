@@ -1,7 +1,7 @@
 Sub AdoptAllComments()
     Dim comment As comment
     For Each comment In ActiveDocument.Comments
-        comment.Author = "Kyle E. Mitchell"
-        comment.Initial = "KEM"
+        comment.Author = Application.UserName
+        comment.Initial = Application.UserInitials
     Next comment
 End Sub
